@@ -1,0 +1,16 @@
+{
+  "name": "TZPlayer",
+  "version": "1.0.0",
+  "description": "A JavaScript audio player.",
+  "main": "index.js",
+  "repository": "https://github.com/Wxiaosheng/TZPlayer.git",
+  "author": "xiaosheng <287915338@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config",
+    "build-cli": "rollup src/index.js --file dist/bundle.js --format iife"
+  },
+  "devDependencies": {
+    "rollup-plugin-json": "^4.0.0"
+  }
+}
