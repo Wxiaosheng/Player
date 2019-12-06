@@ -8,7 +8,18 @@
   <title>播放器测试页</title>
 </head>
 <body>
+  <div style="margin: 10px; text-align: center;">播放器测试</div>
+  <div class='block'></div>
+
+  <div class='row'>播放暂停：<span id='play' class='btn' onclick="TZPlayer.play('10001')">播放</span><span id='pause' class='btn' onclick="TZPlayer.pause()">暂停</span></div>
+  
+  <div class='row'>节目：
+    <span id='play' class='btn' onclick="TZPlayer.play('10002')">xiangqin2 - 宋小宝</span>
+    <span id='play' class='btn' onclick="TZPlayer.play('10003')">xiangqin3 - 宋小宝</span>
+    <span id='play' class='btn' onclick="TZPlayer.play('10004')">纯爷们 - 宋小宝</span>
+  </div>
   
   <script src="../dist/bundle.js"></script>
+  <script src="./index.js"></script>
 </body>
 </html>
